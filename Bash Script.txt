@@ -1,0 +1,15 @@
+# Go to project directory
+cd path/to/sonatrach__project
+
+# Setup Python virtual environment
+python -m venv venv
+source venv/bin/activate
+
+# Install Django dependencies
+pip install -r requirements.txt
+
+# Run migrations
+python manage.py migrate
+
+# Start Django server in background
+python manage.py runserver
