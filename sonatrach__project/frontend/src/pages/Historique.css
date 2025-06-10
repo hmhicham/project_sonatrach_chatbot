@@ -1,0 +1,91 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+  margin: 5px 0 0;
+}
+
+header button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 5px;
+}
+
+header button:hover {
+  text-decoration: underline;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.logs-table-container {
+  overflow-x: auto;
+}
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.logs-table th,
+.logs-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.logs-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.logs-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.logs-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.logs-table pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
